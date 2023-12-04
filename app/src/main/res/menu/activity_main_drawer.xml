@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_world"
+            android:icon="@drawable/worldii"
+            android:title="Global" />
+        <item
+            android:id="@+id/nav_sport"
+            android:icon="@drawable/sports"
+            android:title="Sports" />
+        <item
+            android:id="@+id/nav_science"
+            android:icon="@drawable/science"
+            android:title="Science and Technology" />
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/business"
+            android:title="Business and Trade" />
+        <item
+            android:id="@+id/nav_environment"
+            android:icon="@drawable/environment"
+            android:title="Environment" />
+        <item
+            android:id="@+id/nav_society"
+            android:icon="@drawable/society"
+            android:title="People" />
+        <item
+            android:id="@+id/nav_culture"
+            android:icon="@drawable/culture"
+            android:title="Culture" />
+        <item
+            android:id="@+id/nav_fashion"
+            android:icon="@drawable/fashion"
+            android:title="Fashion" />
+    </group>
+</menu>
